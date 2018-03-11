@@ -1,0 +1,55 @@
+[  2%] Building C object CMakeFiles/libsoundio_shared.dir/src/soundio.c.o
+[  4%] Building C object CMakeFiles/libsoundio_shared.dir/src/util.c.o
+[  6%] Building C object CMakeFiles/libsoundio_shared.dir/src/os.c.o
+[  9%] Building C object CMakeFiles/libsoundio_shared.dir/src/dummy.c.o
+[ 11%] Building C object CMakeFiles/libsoundio_shared.dir/src/channel_layout.c.o
+[ 13%] Building C object CMakeFiles/libsoundio_shared.dir/src/ring_buffer.c.o
+[ 15%] Linking C shared library libsoundio.so
+[ 15%] Built target libsoundio_shared
+[ 18%] Building C object CMakeFiles/sio_list_devices.dir/example/sio_list_devices.c.o
+[ 20%] Linking C executable sio_list_devices
+[ 20%] Built target sio_list_devices
+[ 22%] Building C object CMakeFiles/sio_sine.dir/example/sio_sine.c.o
+[ 25%] Linking C executable sio_sine
+[ 25%] Built target sio_sine
+[ 27%] Building C object CMakeFiles/libsoundio_static.dir/src/soundio.c.o
+[ 29%] Building C object CMakeFiles/libsoundio_static.dir/src/util.c.o
+[ 31%] Building C object CMakeFiles/libsoundio_static.dir/src/os.c.o
+[ 34%] Building C object CMakeFiles/libsoundio_static.dir/src/dummy.c.o
+[ 36%] Building C object CMakeFiles/libsoundio_static.dir/src/channel_layout.c.o
+[ 38%] Building C object CMakeFiles/libsoundio_static.dir/src/ring_buffer.c.o
+[ 40%] Linking C static library libsoundio.a
+[ 40%] Built target libsoundio_static
+[ 43%] Building C object CMakeFiles/underflow.dir/test/underflow.c.o
+[ 45%] Linking C executable underflow
+[ 45%] Built target underflow
+[ 47%] Building C object CMakeFiles/sio_microphone.dir/example/sio_microphone.c.o
+[ 50%] Linking C executable sio_microphone
+[ 50%] Built target sio_microphone
+[ 52%] Building C object CMakeFiles/sio_record.dir/example/sio_record.c.o
+[ 54%] Linking C executable sio_record
+[ 54%] Built target sio_record
+[ 56%] Building C object CMakeFiles/unit_tests.dir/test/unit_tests.c.o
+[ 59%] Building C object CMakeFiles/unit_tests.dir/src/soundio.c.o
+[ 61%] Building C object CMakeFiles/unit_tests.dir/src/util.c.o
+[ 63%] Building C object CMakeFiles/unit_tests.dir/src/os.c.o
+[ 65%] Building C object CMakeFiles/unit_tests.dir/src/dummy.c.o
+[ 68%] Building C object CMakeFiles/unit_tests.dir/src/channel_layout.c.o
+[ 70%] Building C object CMakeFiles/unit_tests.dir/src/ring_buffer.c.o
+[ 72%] Linking C executable unit_tests
+[ 72%] Built target unit_tests
+[ 75%] Building C object CMakeFiles/overflow.dir/test/overflow.c.o
+[ 77%] Linking C executable overflow
+[ 77%] Built target overflow
+[ 79%] Building C object CMakeFiles/latency.dir/test/latency.c.o
+[ 81%] Building C object CMakeFiles/latency.dir/src/soundio.c.o
+[ 84%] Building C object CMakeFiles/latency.dir/src/util.c.o
+[ 86%] Building C object CMakeFiles/latency.dir/src/os.c.o
+[ 88%] Building C object CMakeFiles/latency.dir/src/dummy.c.o
+[ 90%] Building C object CMakeFiles/latency.dir/src/channel_layout.c.o
+[ 93%] Building C object CMakeFiles/latency.dir/src/ring_buffer.c.o
+[ 95%] Linking C executable latency
+[ 95%] Built target latency
+[ 97%] Building C object CMakeFiles/backend_disconnect_recover.dir/test/backend_disconnect_recover.c.o
+[100%] Linking C executable backend_disconnect_recover
+[100%] Built target backend_disconnect_recover

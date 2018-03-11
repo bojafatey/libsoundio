@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Werror -pedantic   CMakeFiles/overflow.dir/test/overflow.c.o  -o overflow -rdynamic libsoundio.so.1.1.0 -lpthread -Wl,-rpath,/home/predator/Documents/Project/temp/libsoundio 

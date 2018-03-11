@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Werror -pedantic   CMakeFiles/sio_record.dir/example/sio_record.c.o  -o sio_record -rdynamic libsoundio.so.1.1.0 -lpthread -Wl,-rpath,/home/predator/Documents/Project/temp/libsoundio: 

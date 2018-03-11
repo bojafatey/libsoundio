@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/predator/Documents/Project/temp/libsoundio/example/sio_microphone.c
+soundio/soundio.h
+-
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+
+soundio/endian.h
+
+soundio/soundio.h
+endian.h
+soundio/endian.h
+stdbool.h
+-
+

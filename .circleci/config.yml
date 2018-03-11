@@ -1,0 +1,55 @@
+version: 2
+jobs:
+  build-x86:
+    docker:
+      - image: ubuntu:trusty
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install build-essential
+      - run: sudo apt-get -y install libelf-dev
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make ARCH="--x86" all
+  build-amd64:
+    docker:
+      - image: ubuntu:trusty
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install build-essential
+      - run: sudo apt-get -y install libelf-dev
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make ARCH="--amd64" all
+  build-arm:
+    docker:
+      - image: ubuntu:trusty
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install build-essential
+      - run: sudo apt-get -y install libelf-dev
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make ARCH="--arm" all
+  build-powerpc:
+    docker:
+      - image: ubuntu:trusty
+    steps:
+      - checkout
+      - run: sudo apt-get update
+      - run: sudo apt-get -y install build-essential
+      - run: sudo apt-get -y install libelf-dev
+      - run: sudo apt-get -y install wget
+      - run: sudo apt-get -y install unzip
+      - run: make ARCH="--powerpc" all
+workflows:
+  version: 2
+  libsoundio_builds:
+    jobs:
+      - build-x86
+      - build-amd64
+      - build-arm
+      - build-powerpc
+
