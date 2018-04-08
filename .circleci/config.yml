@@ -1,46 +1,38 @@
 version: 2
 jobs:
   build-x86:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make ARCH="--x86" all
   build-amd64:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make ARCH="--amd64" all
   build-arm:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make ARCH="--arm" all
   build-powerpc:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make ARCH="--powerpc" all
